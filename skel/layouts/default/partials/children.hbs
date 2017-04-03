@@ -1,0 +1,12 @@
+<div>
+  {{#if children}}
+    <div>
+      {{#each children}}
+        <a href={{site.urlroot}}{{this.url}}>
+          {{this.title}}
+        </a>
+      {{/each}}
+    </div>
+  {{/if}}
+</div>
+

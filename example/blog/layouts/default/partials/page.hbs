@@ -1,0 +1,10 @@
+<div>
+  {{#if page}}
+  <h5>Page Data</h5>
+  <div>
+    <a href={{site.urlroot}}{{page.previousurl}}><<</a>
+    Page {{page.current}} out of {{page.max}}.
+    <a href={{site.urlroot}}{{page.nexturl}}>>></a>
+  </div>
+  {{/if}}
+</div>

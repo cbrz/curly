@@ -1,0 +1,7 @@
+{
+    "extends": "google",
+    "parser": "babel-eslint",
+    "rules": {
+      "generator-star-spacing": 0
+    }
+}

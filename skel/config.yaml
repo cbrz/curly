@@ -1,0 +1,14 @@
+site:
+  author: author
+  title: Site Title
+  production: http://mydomain.com
+  development: http://localhost:3000
+  port: 3000
+
+render:
+  pagelimit: 10
+  ignoredir:
+    - error
+  attributes:
+    - tags
+

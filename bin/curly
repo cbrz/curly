@@ -1,0 +1,8 @@
+#!/usr/bin/env node
+var path = require('path');
+
+var main = require(path.join(__dirname, '../lib/main.js'));
+main.default(process.argv.slice(2))
+  .catch((err) => {
+    console.error(err);
+  });

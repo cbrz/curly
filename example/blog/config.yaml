@@ -1,0 +1,8 @@
+site:
+  title: Where yo' curleh mustache at?
+  production: http://production.site.com
+  development: http://localhost:3000
+
+render:
+  pagelimit: 2
+

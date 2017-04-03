@@ -1,0 +1,44 @@
+{
+  "name": "Curly",
+  "version": "0.1.0",
+  "description": "Static site generator tool focused on making content easy to create.",
+  "bin": "bin/curly",
+  "main": "lib/index.js",
+  "author": "cbrz",
+  "license": "MIT",
+  "scripts": {
+    "curly-cli": "babel-node bin/curly",
+    "test": "eslint lib/ test/ && NODE_ENV=test mocha",
+    "lint": "eslint lib/ test/",
+    "mocha-test": "NODE_ENV=test mocha"
+  },
+  "dependencies": {
+    "babel-cli": "^6.23.0",
+    "babel-preset-env": "^1.2.0",
+    "chalk": "^1.1.3",
+    "chokidar": "^1.6.1",
+    "express": "^4.15.0",
+    "front-matter": "^2.1.2",
+    "fs-promise": "^2.0.0",
+    "handlebars": "^4.0.6",
+    "hbs": "^4.0.1",
+    "js-yaml": "^3.8.2",
+    "markdown-it": "^8.3.0",
+    "markdown-it-footnote": "^3.0.1",
+    "markdown-it-video": "^0.4.0",
+    "minimist": "^1.2.0",
+    "sprintf-js": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "6",
+    "babel-polyfill": "^6.23.0",
+    "babel-register": "^6.23.0",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "eslint": "^3.17.0",
+    "eslint-config-google": "^0.7.1",
+    "mocha": "^3.2.0",
+    "mock-fs": "^4.1.0",
+    "sinon": "^1.17.7"
+  }
+}

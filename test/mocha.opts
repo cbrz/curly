@@ -1,0 +1,7 @@
+--recursive
+--require babel-polyfill
+--require ./test/helpers/chai.js
+--require ./test/helpers/mock-fs.js
+--require ./test/helpers/sinon.js
+--compilers js:babel-register
+

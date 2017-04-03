@@ -1,0 +1,10 @@
+<div>
+  <h5>List Data</h5>
+  <ul>
+  {{#each children}}
+    <li>
+      <a href={{site.urlroot}}{{this.url}}>Read {{this.title}}</a>
+    </li>
+  {{/each}}
+  </ul>
+</div>
